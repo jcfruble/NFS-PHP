@@ -1,0 +1,38 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 22/08/2014, 12:21:55
+    Author     : jcfruble
+*/
+
+#menubar {
+	float: left;
+	height: 500px;
+	width: 140px;
+	background-color: saddlebrown;
+	position: static;
+	left: 0px;
+}
+#botoes {
+	margin-top: 10px;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-bottom: 23px;
+}
+
+.botao {
+	padding: 0px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+        width: 120px;
+        height: 36px;
+        border: 0px;
+}
+
+.atual {
+    opacity: 0.4;
+}
+ 

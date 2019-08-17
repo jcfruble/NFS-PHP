@@ -1,0 +1,110 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 22/08/2014, 12:24:52
+    Author     : jcfruble
+*/
+
+
+body {
+        margin:  10px;
+}
+
+#page {
+        margin-left: auto;
+        margin-right: auto;
+        width: 1024px;
+        min-height: 641px;
+//	border: 5px solid;
+        outline: black solid 5px;
+        background-color: sienna;
+	background-image: none;
+}
+
+#topo, #rodape {
+        float: left;
+	width: 100%;
+        height: 99px;
+}
+
+#topo #esq, #topo #dir {
+    float: left;
+    width: 232px;
+    height: 99px;
+    background-image: url("../picts/Logo2.png")
+}
+
+#topo #meio {
+    float: left;
+    width: 560px;
+    height: 99px;
+    color: lightgoldenrodyellow;
+    background-image: none;
+    background-color: saddlebrown;
+    text-align: center;
+}
+
+#rodape #re, #rodape #rd {
+    float: left;
+    width: 235px;
+    height: 42px;
+    background-image: url("../picts/Logo1.png")
+}
+
+#rodape #rm {
+    float: left;
+    width: 554px;
+    height: 30px;
+    padding-top: 12px;
+    background-image: none;
+    background-color: saddlebrown;
+    text-align: center;
+}
+
+#centro {
+	float: left;
+	height: 500px;
+	width: 884px;
+	padding: 0px;
+	color: lightgoldenrodyellow;
+	margin: 0px;
+//        border-left: 42px;
+//        border-color: #FC6;
+}
+
+#centrotxt {
+	padding: 20px;
+	margin: 20px;
+	text-align: justify;
+	font-family: Verdana, Geneva, sans-serif;
+	font-weight: bold;
+	position: relative;
+}
+
+#centrotxt h2, #centrotxt p {
+        text-align: center;
+}
+
+#rodape {
+        position: relative;
+        margin-left: 0px;
+        margin-right: 0px;
+        padding: 0px;
+	height: 42px;
+	background-color: #FC6;
+}
+
+#sobredl dt {
+	text-align: right;
+	position: relative;
+	right: 650px;
+	font-style: italic;
+	font-weight: bold;
+	color: #FF0;
+}
+#sobredl dd {
+	margin-left: 100px;
+}

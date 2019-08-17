@@ -1,0 +1,60 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 30/08/2014, 08:38:59
+    Author     : jcfruble
+*/
+
+
+#enquetetxt {
+    margin: 10px;
+    padding-left: 10px;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    font-size: smaller;
+}
+
+#surveyform fieldset {
+    float: left;
+}
+
+#enquetetopo, #enquetefim {
+    margin-bottom: 10px;
+    margin-left: 0px;
+    margin-right: 10px;
+    padding: 5px;
+    float: left;
+    width: 800px;
+}
+
+#enquetebest, #enqueteplayd {
+    float: left;
+    width: 390px;
+    height: auto;
+}
+
+#enquetesend {
+    float: right;
+    margin-left: 0px;
+}
+
+#enquetebest label, #enqueteplayd label {
+    display: block;
+}
+
+.error {
+    font-family: cursive;
+}
+
+#userip {
+    width: 100px;
+    text-align: center;
+}
+
+label {
+    cursor: default;
+}

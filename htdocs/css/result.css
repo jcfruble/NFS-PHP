@@ -1,0 +1,29 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 30/12/2014, 00:40:20
+    Author     : jcfruble
+*/
+
+#resudiv {
+	float: left;
+//	height: 500px;
+	width: 980px;
+	padding: 0px;
+	color: lightgoldenrodyellow;
+	margin: 0px;
+//        border-left: 42px;
+//        border-color: #FC6;
+}
+
+#resutxt {
+	padding: 20px;
+	margin: 20px;
+	text-align: justify;
+	font-family: Verdana, Geneva, sans-serif;
+	font-weight: bold;
+	position: relative;
+}

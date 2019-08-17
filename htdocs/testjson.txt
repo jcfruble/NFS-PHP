@@ -1,0 +1,12 @@
+{"jogos":[{"titulo":"Need For Speed: THE RUN","data":"Novembro de 2011","descr":"Need for Speed The Run faz o jogador embarcar numa corrida emocionante e ilegal através dos Estados Unidos, desde San Francisco, na costa oeste, até Nova Iorque, na costa leste.","imgsdir":"nfs18","imgnome":"nfs_nfstr_pack.jpg","nome":"Ação"},{"titulo":"Need For Speed: SHIFT 2 UNLEASHED","data":"Março de 2011","descr":"SHIFT 2 UNLEASHED disponibiliza mais carros e circuitos, câmera de vídeo no capacete, corridas noturnas, muitos recursos para customização, e competição pelo Autolog, tudo para possibilitar a experiência de corrida mais emocionante de todas.","imgsdir":"nfs17","imgnome":"nfs_s2u_pack.jpg","nome":"Simulação"}]}
+
+jogos : [
+
+{ from : [ A : nfsjogos , B : nfsgeneros ] }
+{ fields : [ A : [ titulo , data , descr , imgsdir , imgnome ] , B : [ genero ] ] }
+{ where  : [ A : idGenero , B : idGenero ] }
+{ order  : [ A : idJogo ] }
+
+]
+
+jogos 

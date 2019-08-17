@@ -1,0 +1,46 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html id="imagens" xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <link href="css/base.css" rel="stylesheet" type="text/css" />
+        <script type="text/javascript" src="js/hit_counter.js" ></script>
+        <script type="text/javascript" src="imagensJSON.js" ></script>
+        <title>Need For Speed Games Series Images</title>
+    </head>
+
+    <body>
+        <div id="page">
+            <div id="topo">
+                <div id="esq"></div>
+                <div id="meio"><h1>IMAGENS</h1></div>
+                <div id="dir"></div>                
+            </div>
+            <div id="menubar">
+                <img src="picts/truste.png" alt="" width="135" height="41" />   
+                <div id="botoes">
+                    <a href="homes.html" onmousedown='getElementById("bhome").src = "picts/home_dn.gif";' onmouseover='getElementById("bhome").src = "picts/home_hv.gif";' onmouseup='getElementById("bhome").src = "picts/home_up.gif";'><img id="bhome" src="picts/home_up.gif" alt="" class="botao" /></a>
+                    <a href="jogos.html" onmousedown='getElementById("bjogos").src = "picts/jogos_dn.gif";' onmouseover='getElementById("bjogos").src = "picts/jogos_hv.gif";' onmouseup='getElementById("bjogos").src = "picts/jogos_up.gif";'><img id="bjogos" src="picts/jogos_up.gif" alt="" class="botao" /></a>
+                    <img id="bimagens" src="picts/imagens_dn.gif" alt="" class="botao atual" />
+                    <a href="links.html" onmousedown='getElementById("blinks").src = "picts/links_dn.gif";' onmouseover='getElementById("blinks").src = "picts/links_hv.gif";' onmouseup='getElementById("blinks").src = "picts/links_up.gif";'><img id="blinks" src="picts/links_up.gif" alt="" class="botao" /></a>
+                    <a href="enquete.html" onmousedown='getElementById("benquete").src = "picts/enquete_dn.gif";' onmouseover='getElementById("benquete").src = "picts/enquete_hv.gif";' onmouseup='getElementById("benquete").src = "picts/enquete_up.gif";'><img id="benquete" src="picts/enquete_up.gif" alt="" class="botao" /></a>
+                    <a href="sobre.html" onmousedown='getElementById("bsobre").src = "picts/sobre_dn.gif";' onmouseover='getElementById("bsobre").src = "picts/sobre_hv.gif";' onmouseup='getElementById("bsobre").src = "picts/sobre_up.gif";'><img id="bsobre" src="picts/sobre_up.gif" alt="" class="botao" /></a>
+                </div>
+                <img src="picts/rating_small.png" alt="" width="100" height="69" style="vertical-align:text-top" />
+            </div>
+            <div id="centro">    
+                <div id="imgprev"><button id="butprev" disabled="disabled" type="button" onclick="previous()">Anterior</button></div>
+                <div id="titulo"></div>
+                <div id="imgnext"><button id="butnext" disabled="disabled" type="button" onclick="next()">Seguinte</button></div>
+                <div id="imagestxt"></div>
+            </div>
+            <div id="rodape">
+                <div id="re"></div>
+                <div id="rm">
+                    <script type="text/javascript" >HitCounter();</script>
+                </div>
+                <div id="rd"></div>                
+            </div>
+        </div>
+    </body>
+</html>
