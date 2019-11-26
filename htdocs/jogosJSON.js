@@ -21,9 +21,9 @@ window.onload = function() {
 
 function getAllData(response) {
     var ldata = JSON.parse(response);
-    adata = ldata.jogospg;
+    adata = ldata.jogos_view;
     ndata = adata.length - 1;
-    idata = 1;
+    idata = 0;
     updatePage();
 }
 
@@ -34,7 +34,7 @@ function updatePage() {
     document.getElementById("data").innerHTML = odata.data;
     document.getElementById("genero").innerHTML = odata.genero;
     document.getElementById("descr").innerHTML = odata.descr;
-    var ImgPath = 'imgs/' + odata.imgsdir + '/cover/' + odata.imgnome;
+    var ImgPath = 'imgs/nfs' + odata.idJogo.toString() + '/cover/' + odata.imagem;
     document.getElementById("imagem").src = ImgPath;
 
     if (idata > 1) {

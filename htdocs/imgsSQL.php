@@ -7,8 +7,10 @@ require 'classSQL.php';
 $nfsdb = new SQL("nfssitedb");
 $nfsdb->Connect();
 
-echo $nfsdb->FetchView("imagespg1");
-echo $nfsdb->FetchView("imagespg2");
+$retval1 = $nfsdb->FetchView("nfsimages");
+$retval2 = $nfsdb->FetchView("nfsjogos");
+echo $retval1;
+echo $retval2;
 echo $nfsdb->Close();
 
 

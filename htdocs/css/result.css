@@ -10,13 +10,10 @@ and open the template in the editor.
 
 #resudiv {
 	float: left;
-//	height: 500px;
 	width: 980px;
 	padding: 0px;
 	color: lightgoldenrodyellow;
 	margin: 0px;
-//        border-left: 42px;
-//        border-color: #FC6;
 }
 
 #resutxt {

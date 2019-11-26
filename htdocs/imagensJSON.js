@@ -19,10 +19,10 @@ window.onload = function() {
 
 function getAllData(response) {
 	var ldata = JSON.parse(response);
-	ajogos = ldata.imagespg2;
-	aimages = ldata.imagespg1;
+	ajogos = ldata.nfsjogos;
+	aimages = ldata.nfsimages;
 	njogos = ajogos.length - 1;
-	ijogos = 1;
+	ijogos = 0;
 	updatePage();
 }
 
@@ -31,19 +31,19 @@ function updatePage() {
 	var strInner = '';
 	document.getElementById("imagestxt").innerHTML = strInner;
 	document.getElementById("titulo").innerHTML = ojogo["titulo"].toUpperCase();
-	var strPath = 'imgs/' + ojogo.imgsdir;
+	var strPath = 'imgs/nfs' + ojogo.idJogo.toString();
 	for (var i = ojogo.imgini-1; i < ojogo.imgend; i++) {		
 		var strH1='<a href="';
-		var strH2 = strPath + '/big/' + aimages[i].nome + '" >';
+		var strH2 = strPath + '/big/' + aimages[i].imgs + '" >';
 		var strI1='<img src="';
-		var strI2 = strPath + '/thumb/' + aimages[i].nome + '" alt="" width="" height="" />';		
+		var strI2 = strPath + '/thumb/' + aimages[i].imgs + '" alt="" width="" height="" />';		
 		var strH3='</a>\r\n';		
 		var strLine = strH1.concat(strH2,strI1,strI2,strH3);
 		strInner = strInner.concat(strLine);
 	}
 	document.getElementById("imagestxt").innerHTML = strInner;
 
-	if (ijogos > 1) {
+	if (ijogos > 0) {
 		document.getElementById("butprev").removeAttribute("disabled");
 	} else {
 		document.getElementById("butprev").setAttribute("disabled", "disabled");
